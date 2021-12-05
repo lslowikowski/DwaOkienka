@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DrugaActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aktywność druga"
+        android:textSize="32sp" />
+    <TextView
+        android:id="@+id/odebrana_wiadomosc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tu pojawi się wiadomość z okna głównego" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Powrót do głównego"
+        android:onClick="powrotDo1" />
+</LinearLayout>

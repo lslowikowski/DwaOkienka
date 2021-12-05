@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aktywność główna"
+        android:textSize="32sp"/>
+    <EditText
+        android:id="@+id/wiadomosc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wpisz wiadomość do okna 2"
+        android:imeOptions="actionDone"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wywołaj 2 aktywność"
+        android:onClick="otworz2Okno"/>
+    <TextView
+        android:id="@+id/odpowiedz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tu pojawi się odpowiedź" />
+</LinearLayout>
